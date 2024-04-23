@@ -1,4 +1,4 @@
--- // This script will spawn you back on the same position you've been kicked at.
+-- // This script will spawn you back on the same position you've been kicked at, put this into your Auto-Execute.
 
 local TeleportService = game:GetService("TeleportService")
 local GuiService = game:GetService("GuiService")
