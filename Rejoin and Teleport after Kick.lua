@@ -18,5 +18,5 @@ GuiService.ErrorMessageChanged:Connect(function()
 
     ]], CFrame.x, CFrame.y, CFrame.z))
 
-    TeleportService:TeleportToPlaceInstance(game["PlaceId"], game["JobId"])
+    TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId)
 end)
