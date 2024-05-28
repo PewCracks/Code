@@ -55,18 +55,18 @@ local QuickSort do
     end;
 end;
 
--- return QuickSort;
+return QuickSort;
 
-local Array = {};
-print("Generating Tables...")
-for i = 0,10000000 do
-    Array[i] = math.random(1,10000000);
-end;
+-- local Array = {};
+-- print("Generating Tables...")
+-- for i = 0,10000000 do
+--     Array[i] = math.random(1,10000000);
+-- end;
 
-print("Sorting...")
-local T = os.time()
+-- print("Sorting...")
+-- local T = os.time()
 
-QuickSort(Array)
+-- QuickSort(Array)
 
-print("Sorted! Took:", os.time()-T .. "s")
+-- print("Sorted! Took:", os.time()-T .. "s")
 -- print(table.concat(arr, ","))
